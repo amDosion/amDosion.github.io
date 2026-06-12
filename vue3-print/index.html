@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <!-- [security L1] Demo CSP - hiprint 内部使用 new Function() 渲染 formatter / styler,
-         必须放行 'unsafe-eval'. 业务方应按需自行收紧 (CSP nonce + 移除 unsafe-eval 见
-         docs/integration-guide.md). data: 给 image element base64. blob: 给 jsPDF preview. -->
+         必须放行 'unsafe-eval'. 业务方应按需自行收紧 (信任边界见 docs/SECURITY.md).
+         data: 给 image element base64. blob: 给 jsPDF preview. -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' ws: wss: http://localhost:* http://127.0.0.1:*; frame-src 'self' blob:; object-src 'none'; base-uri 'self';" />
     <link rel="icon" href="/vue3-print/favicon.ico" />
     <title>vue3-print</title>
@@ -26,14 +26,14 @@
       @keyframes antRotate{to{transform:rotate(405deg)}}
       @keyframes antSpinMove{to{opacity:1}}
     </style>
-    <script type="module" crossorigin src="/vue3-print/static/index-DZMQsr-D.js"></script>
-    <link rel="modulepreload" crossorigin href="/vue3-print/static/vendor-KDC-IgI5.js">
+    <script type="module" crossorigin src="/vue3-print/static/index-BjS8rLCq.js"></script>
+    <link rel="modulepreload" crossorigin href="/vue3-print/static/vendor-BLckQnU4.js">
     <link rel="modulepreload" crossorigin href="/vue3-print/static/vendor-code-Dg15w89g.js">
-    <link rel="modulepreload" crossorigin href="/vue3-print/static/vendor-vue-Kxwog9gJ.js">
-    <link rel="modulepreload" crossorigin href="/vue3-print/static/vendor-print-UVlGJFXS.js">
-    <link rel="modulepreload" crossorigin href="/vue3-print/static/vendor-antdv-C_-rw5Yk.js">
+    <link rel="modulepreload" crossorigin href="/vue3-print/static/vendor-vue-C3FCrB_0.js">
+    <link rel="modulepreload" crossorigin href="/vue3-print/static/vendor-print-k5NhYDyj.js">
+    <link rel="modulepreload" crossorigin href="/vue3-print/static/vendor-antdv-DvVB9vgZ.js">
     <link rel="stylesheet" crossorigin href="/vue3-print/static/vendor-antdv-B6snAd4S.css">
-    <link rel="stylesheet" crossorigin href="/vue3-print/static/index-h41h5QLw.css">
+    <link rel="stylesheet" crossorigin href="/vue3-print/static/index-6VDLSSOC.css">
   </head>
   <body>
     <noscript>
